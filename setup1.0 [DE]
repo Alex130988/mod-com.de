@@ -2,7 +2,7 @@
 clear
 # Mod-Com
 # Minecraft Server erstellung
-# Spigot Versionen 1.8 - 1.8.8
+# Spigot Versionen 1.8 - 1.11 
 #Settings
 echo Dies ist ein Installationsskript von Mod-Com.de erstellt von Alex130988!
 echo " \033[31m!! WICHTIG !!\033[0m."
@@ -33,8 +33,8 @@ echo Die Slots
 read slots          #Slotz die dem server zugewiesen sind!
 echo Die motd des Server
 read motd  #Die Motd des Mc Servers
-echo Die Versions nummer zb. 1.8 oder 1.8.8 oder latest
-read rev           # Spigot Versionen: 1.8 - 1.8.8  (latest = letzte verfuegbare datei)
+echo Die Versions nummer zb. 1.8 oder 1.11 oder latest
+read rev           # Spigot Versionen: 1.8 - 1.11   (latest = letzte verfuegbare datei)
 if [ -d $screen ]
     then
 	  echo Es existiert schon ein Server mit diesem Namen!!
